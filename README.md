@@ -1,3 +1,3 @@
 # soapoperator-home
 
-Little auberge
+Little auberge!
