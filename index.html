@@ -3,26 +3,21 @@
     <head>
         <meta charset="utf-8">
         <title>soap.operator</title>
-	<!-- Piwik Tracking
-	================================================== -->
-	<script type="text/javascript">
-	  var _paq = _paq || [];
-	  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-	  _paq.push(["setDomains", ["*.soapoperator.com","*.soapoperator.com"]]);
-	  _paq.push(["setDoNotTrack", true]);
-	  _paq.push(["disableCookies"]);
-	  _paq.push(['trackPageView']);
-	  _paq.push(['enableLinkTracking']);
-	  (function() {
-	    var u="//analytics.soapoperator.com/";
-	    _paq.push(['setTrackerUrl', u+'piwik.php']);
-	    _paq.push(['setSiteId', '2']);
-	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-	    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-	  })();
-	</script>
-	<noscript><p><img src="//analytics.soapoperator.com/piwik.php?idsite=2&rec=1" style="border:0;" alt="" /></p></noscript>
-	<!-- End Piwik Code -->
+    <!-- Matomo -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//analytics.soapoperator.com/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '2']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
     </head>
     <body>
         <h1 style="font-family:monospace;">
@@ -31,5 +26,10 @@
         <p style="font-family:monospace;">
             <a href="mailto:jbo@soapoperator.com">contact</a>
         </p>
+	    <noscript>
+            <!-- Matomo Image Tracker-->
+            <img src="https://analytics.soapoperator.com/piwik.php?idsite=2&rec=1" style="border:0" alt="" />
+            <!-- End Matomo -->
+        </noscript>
     </body>
 </html>
